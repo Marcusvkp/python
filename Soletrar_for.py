@@ -1,5 +1,5 @@
-nome = "Power Guido"
+nome = "Power_Guido"
 
-for c in nome:
+for i, c in enumerate (nome):
     
-    print(c)
+    print(f"Posição = {i}, valor = {c}")
